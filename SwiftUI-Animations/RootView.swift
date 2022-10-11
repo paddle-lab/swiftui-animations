@@ -12,7 +12,7 @@ struct RootView: View {
   var body: some View {
     NavigationView {
       List {
-        NavigationLink("001-Transition") { Transition() }
+        NavigationLink("001-Translate") { Translate() }
         NavigationLink("002-Rotation") { Rotation() }
       }
     }
