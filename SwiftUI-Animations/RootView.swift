@@ -13,6 +13,7 @@ struct RootView: View {
     NavigationView {
       List {
         NavigationLink("001-Translate") { Translate() }
+        NavigationLink("002-TranslateCompare")  { TranslateCompare() }
         NavigationLink("002-Rotation") { Rotation() }
       }
     }
