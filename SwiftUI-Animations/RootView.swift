@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct RootView: View {
+  
   var body: some View {
     NavigationView {
       List {
-        NavigationLink { TransitionView() } label: { Text("001-Transition") }
-        NavigationLink { RotationView() } label: { Text("002-Rotation") }
+        NavigationLink("001-Transition") { Transition() }
+        NavigationLink("002-Rotation") { Rotation() }
       }
     }
   }

@@ -11,8 +11,8 @@
 		40A60C2628F53AFC00A902F7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C2528F53AFC00A902F7 /* RootView.swift */; };
 		40A60C2828F53B0400A902F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A60C2728F53B0400A902F7 /* Assets.xcassets */; };
 		40A60C2C28F53B0400A902F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A60C2B28F53B0400A902F7 /* Preview Assets.xcassets */; };
-		40A60C3728F5410100A902F7 /* 002-Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3628F5410100A902F7 /* 002-Rotation.swift */; };
-		40A60C3928F542DE00A902F7 /* 001-Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3828F542DE00A902F7 /* 001-Transition.swift */; };
+		40A60C3728F5410100A902F7 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3628F5410100A902F7 /* Rotation.swift */; };
+		40A60C3928F542DE00A902F7 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3828F542DE00A902F7 /* Transition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		40A60C2728F53B0400A902F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A60C2928F53B0400A902F7 /* SwiftUI_Animations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Animations.entitlements; sourceTree = "<group>"; };
 		40A60C2B28F53B0400A902F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		40A60C3628F5410100A902F7 /* 002-Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "002-Rotation.swift"; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/002-Rotation.swift"; sourceTree = "<group>"; };
-		40A60C3828F542DE00A902F7 /* 001-Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "001-Transition.swift"; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/001-Transition.swift"; sourceTree = "<group>"; };
+		40A60C3628F5410100A902F7 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Rotation.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Rotation.swift"; sourceTree = "<group>"; };
+		40A60C3828F542DE00A902F7 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Transition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 		40A60C3228F540D200A902F7 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				40A60C3828F542DE00A902F7 /* 001-Transition.swift */,
-				40A60C3628F5410100A902F7 /* 002-Rotation.swift */,
+				40A60C3828F542DE00A902F7 /* Transition.swift */,
+				40A60C3628F5410100A902F7 /* Rotation.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -153,8 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A60C3928F542DE00A902F7 /* 001-Transition.swift in Sources */,
-				40A60C3728F5410100A902F7 /* 002-Rotation.swift in Sources */,
+				40A60C3928F542DE00A902F7 /* Transition.swift in Sources */,
+				40A60C3728F5410100A902F7 /* Rotation.swift in Sources */,
 				40A60C2628F53AFC00A902F7 /* RootView.swift in Sources */,
 				40A60C2428F53AFC00A902F7 /* SwiftUI_AnimationsApp.swift in Sources */,
 			);
