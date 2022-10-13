@@ -1,10 +1,3 @@
-//
-//  RotationCompare.swift
-//  SwiftUI-Animations
-//
-//  Created by Junya on 2022/10/13.
-//
-
 import SwiftUI
 
 struct RotationCompare: View {

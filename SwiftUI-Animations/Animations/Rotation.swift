@@ -1,10 +1,3 @@
-//
-//  Rotation.swift
-//  SwiftUI-Animations
-//
-//  Created by 山本 on 2022/10/11.
-//
-
 import SwiftUI
 
 struct Rotation: View {
