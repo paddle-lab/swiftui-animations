@@ -15,9 +15,9 @@ struct Rotation: View {
     Rectangle()
       .rotation(angle)
       .frame(width: 50, height: 50)
-      .onAppear {
+      .onTapGesture {
         withAnimation(.linear) {
-          self.angle = .degrees(180)
+          self.angle.degrees += 180
         }
       }
       .navigationTitle(String(describing: Self.self))

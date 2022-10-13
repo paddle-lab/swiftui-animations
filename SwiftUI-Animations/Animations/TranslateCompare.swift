@@ -22,45 +22,45 @@ struct TranslateCompare: View {
       Rectangle()
         .frame(width: 50, height: 50)
         .offset(linearPosition)
-        .onAppear {
+        .onTapGesture {
           withAnimation(.linear) {
-            self.linearPosition = .init(width: 100, height: 0)
+            self.linearPosition.width = linearPosition.width < 0 ? 100 : -100
           }
         }
       Text(".easeIn")
       Rectangle()
         .frame(width: 50, height: 50)
         .offset(easeInPosition)
-        .onAppear {
+        .onTapGesture {
           withAnimation(.easeIn) {
-            self.easeInPosition = .init(width: 100, height: 0)
+            self.easeInPosition.width = easeInPosition.width < 0 ? 100 : -100
           }
         }
       Text(".easeOut")
       Rectangle()
         .frame(width: 50, height: 50)
         .offset(easeOutPosition)
-        .onAppear {
+        .onTapGesture {
           withAnimation(.easeOut) {
-            self.easeOutPosition = .init(width: 100, height: 0)
+            self.easeOutPosition.width = easeOutPosition.width < 0 ? 100 : -100
           }
         }
       Text(".easeInOut")
       Rectangle()
         .frame(width: 50, height: 50)
         .offset(easeInOutPosition)
-        .onAppear {
+        .onTapGesture {
           withAnimation(.easeInOut) {
-            self.easeInOutPosition = .init(width: 100, height: 0)
+            self.easeInOutPosition.width = easeInOutPosition.width < 0 ? 100 : -100
           }
         }
       Text(".spring(dampingFraction: 0.5)")
       Rectangle()
         .frame(width: 50, height: 50)
         .offset(springPosition)
-        .onAppear {
+        .onTapGesture {
           withAnimation(.spring(dampingFraction: 0.5)) {
-            self.springPosition = .init(width: 100, height: 0)
+            self.springPosition.width = springPosition.width < 0 ? 100 : -100
           }
         }
     }

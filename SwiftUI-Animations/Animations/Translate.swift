@@ -13,12 +13,13 @@ struct Translate: View {
   
   var body: some View {
     Group {
+      Text("Tap Block")
       Rectangle()
         .frame(width: 50, height: 50)
         .offset(position)
-        .onAppear {
+        .onTapGesture {
           withAnimation(.linear) {
-            self.position = .init(width: 100, height: 0)
+            self.position.width = position.width < 0 ? 100 : -100
           }
         }
     }
