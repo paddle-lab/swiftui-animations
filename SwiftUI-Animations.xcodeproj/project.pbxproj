@@ -14,6 +14,7 @@
 		40A60C3728F5410100A902F7 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3628F5410100A902F7 /* Rotation.swift */; };
 		40A60C3928F542DE00A902F7 /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3828F542DE00A902F7 /* Translate.swift */; };
 		40A60C3B28F5506A00A902F7 /* TranslateCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */; };
+		B327395E28F7AAC60099AA4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B327395D28F7AAC60099AA4F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		40A60C3628F5410100A902F7 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Rotation.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Rotation.swift"; sourceTree = "<group>"; };
 		40A60C3828F542DE00A902F7 /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Translate.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Translate.swift"; sourceTree = "<group>"; };
 		40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslateCompare.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/TranslateCompare.swift"; sourceTree = "<group>"; };
+		B327395D28F7AAC60099AA4F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				40A60C2228F53AFC00A902F7 /* SwiftUI-Animations */,
+				B327395D28F7AAC60099AA4F /* .gitignore */,
 				40A60C2128F53AFC00A902F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40A60C2C28F53B0400A902F7 /* Preview Assets.xcassets in Resources */,
+				B327395E28F7AAC60099AA4F /* .gitignore in Resources */,
 				40A60C2828F53B0400A902F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
