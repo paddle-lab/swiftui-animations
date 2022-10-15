@@ -1,0 +1,15 @@
+import SwiftUI
+
+struct {{ viewName }}: View {
+  
+  var body: some View {
+    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      .navigationTitle(String(describing: Self.self))
+  }
+}
+
+struct {{ viewName }}_Previews: PreviewProvider {
+  static var previews: some View {
+    {{ viewName }}()
+  }
+}

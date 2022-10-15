@@ -1,0 +1,9 @@
+options:
+  - name: viewName
+    description: The name of the view
+    question: What is the name of view?
+    required: true
+    type: string
+files:
+  - template: view.stencil
+    path: "SwiftUI-Animations/Animations/{{ viewName }}.swift"
