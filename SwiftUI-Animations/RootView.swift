@@ -16,6 +16,7 @@ struct RootView: View {
         NavigationLink("002-TranslateCompare")  { TranslateCompare() }
         NavigationLink("003-Rotation") { Rotation() }
         NavigationLink("004-Rotation") { RotationCompare() }
+        NavigationLink("005-Scale") { Scale() }
       }
     }
   }

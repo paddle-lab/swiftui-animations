@@ -16,6 +16,7 @@
 		40A60C3B28F5506A00A902F7 /* TranslateCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */; };
 		B327395E28F7AAC60099AA4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B327395D28F7AAC60099AA4F /* .gitignore */; };
 		B327396028F855C10099AA4F /* RotationCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B327395F28F855C10099AA4F /* RotationCompare.swift */; };
+		B3F1D89F28FA7426008D609C /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1D89E28FA7426008D609C /* Scale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslateCompare.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/TranslateCompare.swift"; sourceTree = "<group>"; };
 		B327395D28F7AAC60099AA4F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B327395F28F855C10099AA4F /* RotationCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationCompare.swift; sourceTree = "<group>"; };
+		B3F1D89E28FA7426008D609C /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */,
 				40A60C3628F5410100A902F7 /* Rotation.swift */,
 				B327395F28F855C10099AA4F /* RotationCompare.swift */,
+				B3F1D89E28FA7426008D609C /* Scale.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				40A60C3728F5410100A902F7 /* Rotation.swift in Sources */,
 				40A60C2628F53AFC00A902F7 /* RootView.swift in Sources */,
 				40A60C2428F53AFC00A902F7 /* SwiftUI_AnimationsApp.swift in Sources */,
+				B3F1D89F28FA7426008D609C /* Scale.swift in Sources */,
 				40A60C3B28F5506A00A902F7 /* TranslateCompare.swift in Sources */,
 				B327396028F855C10099AA4F /* RotationCompare.swift in Sources */,
 			);
