@@ -19,6 +19,7 @@
 		B327396028F855C10099AA4F /* RotationCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B327395F28F855C10099AA4F /* RotationCompare.swift */; };
 		B35BF12B28FD9F68006572CE /* ScaleCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BF12A28FD9F68006572CE /* ScaleCompare.swift */; };
 		B3F1D89F28FA7426008D609C /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1D89E28FA7426008D609C /* Scale.swift */; };
+		F372EC6729018EA200603FF4 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372EC6629018EA200603FF4 /* Timeline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B327395F28F855C10099AA4F /* RotationCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationCompare.swift; sourceTree = "<group>"; };
 		B35BF12A28FD9F68006572CE /* ScaleCompare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleCompare.swift; sourceTree = "<group>"; };
 		B3F1D89E28FA7426008D609C /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		F372EC6629018EA200603FF4 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				B320999D28FEF25D0079E4C1 /* Rotation3D.swift */,
 				B3F1D89E28FA7426008D609C /* Scale.swift */,
 				B35BF12A28FD9F68006572CE /* ScaleCompare.swift */,
+				F372EC6629018EA200603FF4 /* Timeline.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40A60C3928F542DE00A902F7 /* Translate.swift in Sources */,
+				F372EC6729018EA200603FF4 /* Timeline.swift in Sources */,
 				40A60C3728F5410100A902F7 /* Rotation.swift in Sources */,
 				40A60C2628F53AFC00A902F7 /* RootView.swift in Sources */,
 				40A60C2428F53AFC00A902F7 /* SwiftUI_AnimationsApp.swift in Sources */,
