@@ -20,6 +20,7 @@ struct RootView: View {
         NavigationLink("006-ScaleCompare") { ScaleCompare() }
         NavigationLink("007-Rotation3D") { Rotation3D() }
         NavigationLink("008-Timeline") { Timeline() }
+        NavigationLink("009-Fade") { Fade() }
       }
     }
   }
