@@ -12,15 +12,18 @@ struct RootView: View {
   var body: some View {
     NavigationView {
       List {
-        NavigationLink("001-Translate") { Translate() }
-        NavigationLink("002-TranslateCompare")  { TranslateCompare() }
-        NavigationLink("003-Rotation") { Rotation() }
-        NavigationLink("004-RotationCompare") { RotationCompare() }
-        NavigationLink("005-Scale") { Scale() }
-        NavigationLink("006-ScaleCompare") { ScaleCompare() }
-        NavigationLink("007-Rotation3D") { Rotation3D() }
-        NavigationLink("008-Timeline") { Timeline() }
-        NavigationLink("009-Fade") { Fade() }
+        Section("Basics") {
+          NavigationLink("001-Translate") { Translate() }
+          NavigationLink("002-TranslateCompare")  { TranslateCompare() }
+          NavigationLink("003-Rotation") { Rotation() }
+          NavigationLink("004-RotationCompare") { RotationCompare() }
+          NavigationLink("005-Scale") { Scale() }
+          NavigationLink("006-ScaleCompare") { ScaleCompare() }
+          NavigationLink("007-Rotation3D") { Rotation3D() }
+          NavigationLink("008-Timeline") { Timeline() }
+          NavigationLink("009-Fade") { Fade() }
+          NavigationLink("010-Color") { Color() }
+        }
       }
     }
   }
