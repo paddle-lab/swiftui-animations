@@ -14,6 +14,7 @@
 		40A60C3728F5410100A902F7 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3628F5410100A902F7 /* Rotation.swift */; };
 		40A60C3928F542DE00A902F7 /* Translate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3828F542DE00A902F7 /* Translate.swift */; };
 		40A60C3B28F5506A00A902F7 /* TranslateCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */; };
+		B30925762908278700D05C4E /* PathStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30925752908278700D05C4E /* PathStroke.swift */; };
 		B320999E28FEF25D0079E4C1 /* Rotation3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320999D28FEF25D0079E4C1 /* Rotation3D.swift */; };
 		B327395E28F7AAC60099AA4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B327395D28F7AAC60099AA4F /* .gitignore */; };
 		B327396028F855C10099AA4F /* RotationCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B327395F28F855C10099AA4F /* RotationCompare.swift */; };
@@ -34,6 +35,7 @@
 		40A60C3628F5410100A902F7 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Rotation.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Rotation.swift"; sourceTree = "<group>"; };
 		40A60C3828F542DE00A902F7 /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Translate.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Translate.swift"; sourceTree = "<group>"; };
 		40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslateCompare.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/TranslateCompare.swift"; sourceTree = "<group>"; };
+		B30925752908278700D05C4E /* PathStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathStroke.swift; sourceTree = "<group>"; };
 		B320999D28FEF25D0079E4C1 /* Rotation3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation3D.swift; sourceTree = "<group>"; };
 		B327395D28F7AAC60099AA4F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B327395F28F855C10099AA4F /* RotationCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationCompare.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F372EC6629018EA200603FF4 /* Timeline.swift */,
 				B3922ADB2904329200599897 /* Fade.swift */,
 				B34B4D6D29058674008F3B71 /* Color.swift */,
+				B30925752908278700D05C4E /* PathStroke.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				B320999E28FEF25D0079E4C1 /* Rotation3D.swift in Sources */,
 				B35BF12B28FD9F68006572CE /* ScaleCompare.swift in Sources */,
 				B3F1D89F28FA7426008D609C /* Scale.swift in Sources */,
+				B30925762908278700D05C4E /* PathStroke.swift in Sources */,
 				40A60C3B28F5506A00A902F7 /* TranslateCompare.swift in Sources */,
 				B327396028F855C10099AA4F /* RotationCompare.swift in Sources */,
 			);

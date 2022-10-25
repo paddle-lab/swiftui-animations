@@ -24,6 +24,9 @@ struct RootView: View {
           NavigationLink("009-Fade") { Fade() }
           NavigationLink("010-Color") { Color() }
         }
+        Section("Draw") {
+          NavigationLink("011-PathStroke") { PathStroke() }
+        }
       }
     }
   }
