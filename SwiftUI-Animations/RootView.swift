@@ -26,6 +26,7 @@ struct RootView: View {
         }
         Section("Draw") {
           NavigationLink("011-PathStroke") { PathStroke() }
+          NavigationLink("012-Morph") { Morph() }
         }
       }
     }
