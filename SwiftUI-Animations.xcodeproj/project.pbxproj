@@ -18,6 +18,7 @@
 		B320999E28FEF25D0079E4C1 /* Rotation3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320999D28FEF25D0079E4C1 /* Rotation3D.swift */; };
 		B327395E28F7AAC60099AA4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B327395D28F7AAC60099AA4F /* .gitignore */; };
 		B327396028F855C10099AA4F /* RotationCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B327395F28F855C10099AA4F /* RotationCompare.swift */; };
+		B344CBD029100DDB003C3D30 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B344CBCF29100DDB003C3D30 /* Drawing.swift */; };
 		B34B4D6E29058674008F3B71 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34B4D6D29058674008F3B71 /* Color.swift */; };
 		B35BF12B28FD9F68006572CE /* ScaleCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35BF12A28FD9F68006572CE /* ScaleCompare.swift */; };
 		B37BD986290988A100F2188B /* Morph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BD985290988A000F2188B /* Morph.swift */; };
@@ -41,6 +42,7 @@
 		B320999D28FEF25D0079E4C1 /* Rotation3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation3D.swift; sourceTree = "<group>"; };
 		B327395D28F7AAC60099AA4F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B327395F28F855C10099AA4F /* RotationCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationCompare.swift; sourceTree = "<group>"; };
+		B344CBCF29100DDB003C3D30 /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 		B34B4D6D29058674008F3B71 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		B35BF12A28FD9F68006572CE /* ScaleCompare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleCompare.swift; sourceTree = "<group>"; };
 		B37BD985290988A000F2188B /* Morph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Morph.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				B30925752908278700D05C4E /* PathStroke.swift */,
 				B37BD985290988A000F2188B /* Morph.swift */,
 				B3F1CCFF290D7452003FF255 /* Deformation.swift */,
+				B344CBCF29100DDB003C3D30 /* Drawing.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				F372EC6729018EA200603FF4 /* Timeline.swift in Sources */,
 				40A60C3728F5410100A902F7 /* Rotation.swift in Sources */,
 				B3922ADC2904329200599897 /* Fade.swift in Sources */,
+				B344CBD029100DDB003C3D30 /* Drawing.swift in Sources */,
 				40A60C2628F53AFC00A902F7 /* RootView.swift in Sources */,
 				B34B4D6E29058674008F3B71 /* Color.swift in Sources */,
 				40A60C2428F53AFC00A902F7 /* SwiftUI_AnimationsApp.swift in Sources */,
