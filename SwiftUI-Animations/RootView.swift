@@ -30,6 +30,7 @@ struct RootView: View {
           NavigationLink("013-Deformation") { Deformation() }
           NavigationLink("014-Drawing") { Drawing() }
           NavigationLink("015-DashedLine") { DashedLine() }
+          NavigationLink("016-Blur") { Blur() }
         }
       }
     }
