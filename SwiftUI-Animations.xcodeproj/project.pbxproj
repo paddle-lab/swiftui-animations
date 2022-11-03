@@ -37,9 +37,9 @@
 		40A60C2728F53B0400A902F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A60C2928F53B0400A902F7 /* SwiftUI_Animations.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUI_Animations.entitlements; sourceTree = "<group>"; };
 		40A60C2B28F53B0400A902F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		40A60C3628F5410100A902F7 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Rotation.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Rotation.swift"; sourceTree = "<group>"; };
-		40A60C3828F542DE00A902F7 /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Translate.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/Translate.swift"; sourceTree = "<group>"; };
-		40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslateCompare.swift; path = "../../../swiftui-animations/SwiftUI-Animations/Animations/TranslateCompare.swift"; sourceTree = "<group>"; };
+		40A60C3628F5410100A902F7 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		40A60C3828F542DE00A902F7 /* Translate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translate.swift; sourceTree = "<group>"; };
+		40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateCompare.swift; sourceTree = "<group>"; };
 		B30925752908278700D05C4E /* PathStroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathStroke.swift; sourceTree = "<group>"; };
 		B320999D28FEF25D0079E4C1 /* Rotation3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation3D.swift; sourceTree = "<group>"; };
 		B327395D28F7AAC60099AA4F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -108,6 +108,15 @@
 		40A60C3228F540D200A902F7 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				B310D7822913C3800093A1CA /* Basics */,
+				B310D7832913C3910093A1CA /* Draw */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B310D7822913C3800093A1CA /* Basics */ = {
+			isa = PBXGroup;
+			children = (
 				40A60C3828F542DE00A902F7 /* Translate.swift */,
 				40A60C3A28F5506A00A902F7 /* TranslateCompare.swift */,
 				40A60C3628F5410100A902F7 /* Rotation.swift */,
@@ -118,6 +127,13 @@
 				F372EC6629018EA200603FF4 /* Timeline.swift */,
 				B3922ADB2904329200599897 /* Fade.swift */,
 				B34B4D6D29058674008F3B71 /* Color.swift */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		B310D7832913C3910093A1CA /* Draw */ = {
+			isa = PBXGroup;
+			children = (
 				B30925752908278700D05C4E /* PathStroke.swift */,
 				B37BD985290988A000F2188B /* Morph.swift */,
 				B3F1CCFF290D7452003FF255 /* Deformation.swift */,
@@ -125,7 +141,7 @@
 				B3AA03C92911628600F6B0B8 /* DashedLine.swift */,
 				B36543242912B98900C894CB /* Blur.swift */,
 			);
-			path = Animations;
+			path = Draw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
