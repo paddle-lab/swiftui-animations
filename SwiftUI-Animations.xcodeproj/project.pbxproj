@@ -28,6 +28,7 @@
 		B3AA03CA2911628600F6B0B8 /* DashedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA03C92911628600F6B0B8 /* DashedLine.swift */; };
 		B3F1CD00290D7452003FF255 /* Deformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1CCFF290D7452003FF255 /* Deformation.swift */; };
 		B3F1D89F28FA7426008D609C /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1D89E28FA7426008D609C /* Scale.swift */; };
+		B3FF90E3291544FE003F5AF2 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FF90E2291544FE003F5AF2 /* Progress.swift */; };
 		F372EC6729018EA200603FF4 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F372EC6629018EA200603FF4 /* Timeline.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		B3AA03C92911628600F6B0B8 /* DashedLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashedLine.swift; sourceTree = "<group>"; };
 		B3F1CCFF290D7452003FF255 /* Deformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deformation.swift; sourceTree = "<group>"; };
 		B3F1D89E28FA7426008D609C /* Scale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scale.swift; sourceTree = "<group>"; };
+		B3FF90E2291544FE003F5AF2 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		F372EC6629018EA200603FF4 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				B3AA03C92911628600F6B0B8 /* DashedLine.swift */,
 				B36543242912B98900C894CB /* Blur.swift */,
 				B310D7862913F6870093A1CA /* Spinner.swift */,
+				B3FF90E2291544FE003F5AF2 /* Progress.swift */,
 			);
 			path = Draw;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				B3922ADC2904329200599897 /* Fade.swift in Sources */,
 				B344CBD029100DDB003C3D30 /* Drawing.swift in Sources */,
 				B3AA03CA2911628600F6B0B8 /* DashedLine.swift in Sources */,
+				B3FF90E3291544FE003F5AF2 /* Progress.swift in Sources */,
 				B36543252912B98900C894CB /* Blur.swift in Sources */,
 				B310D7872913F6870093A1CA /* Spinner.swift in Sources */,
 				40A60C2628F53AFC00A902F7 /* RootView.swift in Sources */,

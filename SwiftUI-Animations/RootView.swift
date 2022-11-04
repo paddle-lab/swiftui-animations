@@ -32,6 +32,7 @@ struct RootView: View {
           NavigationLink("015-DashedLine") { DashedLine() }
           NavigationLink("016-Blur") { Blur() }
           NavigationLink("017-Spinner") { Spinner() }
+          NavigationLink("018-Progress") { Progress() }
         }
       }
     }
